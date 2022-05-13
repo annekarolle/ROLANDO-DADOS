@@ -1,0 +1,109 @@
+body{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.container-dados{   
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 800px;
+    height: 500px;    
+    padding: 10px;     
+    align-items: flex-end; 
+}
+
+
+.barra{
+    width: 35px;
+    background-color: aliceblue;
+    color: black;
+    align-items:center;  
+  
+}
+
+.container-barra{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#barra2{
+    background-color: #cefbb4;
+    text-align: center;
+}
+
+#barra3{
+    background-color: #a7f981;
+    text-align: center;
+}
+
+#barra4{
+    background-color: #7df950;
+    text-align: center;
+}
+
+#barra5{
+    background-color: #62f628;
+    text-align: center;
+}
+
+#barra6{
+    background-color: #40f504;
+    text-align: center;
+}
+
+#barra7{
+    background-color: #03e50e;
+    text-align: center;
+    color: white;
+}
+
+#barra8{
+    background-color: #44cf03;
+    text-align: center;
+    color: white;
+}
+
+#barra9{
+    background-color: #32bd03;
+    text-align: center;
+    color: white;
+}
+
+#barra10{
+    background-color: #179b00;
+    text-align: center;
+    color: white;
+}
+
+#barra11{
+    background-color: #018b0c;
+    text-align: center;
+    color: white;
+}
+#barra12{
+    background-color: #037815;
+    text-align: center;
+    color: white;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    background-color: #75ff02;
+    cursor: pointer;
+}
+
+#mensagem{
+    color: #75ff02;
+    font-size: 25px;
+    margin-top: 5px;
+}
